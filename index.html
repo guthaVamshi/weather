@@ -38,14 +38,41 @@
 
 
         </header>
-        <div class="wool   d-block justify-content-start mt-44 ">
-            <h1 class="text-light" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">find
-                weather in your location</h1>
+        <div class="container hero">
+            <div class=" flex-lg-row-reverse align-items-center g-5 py-5">
+               
+                <div class=" ">
+                    <div class="wool   ">
+                        <h1 class=" " style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:white">Find
+                            weather in your location</h1>
+                    </div>
+                    <div class="row m-1">
+    
+                        <div class="col-md-8">
+    
+                            <div class="input-group mb-3">
+                                <input type="text" id="inputvalue" class="form-control input-text"
+                                    placeholder="Search City....." aria-label="Recipient's username"
+                                    aria-describedby="basic-addon2">
+                                   
+                                <div class="input-group-append m-1">
+                                    <button class="btn btn-outline-light btn-lg" id="button" type="button"><i
+                                            class="fa fa-search"></i></button>
+                                </div>
+                               
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                    <div class="error" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"></div>
+    
+                </div>
+            </div>
         </div>
         <div class="input  ">
 
-            <input type="text" id="inputvalue" placeholder="     Enter city name">
-            <button type="button" id="button"><i class="fas fa-search fa-2x ml-2" style="color: white;margin: 10%; "></i></button>
+           
             <div class="cont text-light fa-2x mt-10" >forecast :</div>
             <img id="icon" class="p-4 w-40"></h5>
             <div class="parent mt-4 fa-2x">
